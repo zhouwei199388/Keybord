@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+	android:keyWidth="6.8%p" android:horizontalGap="20px"
+	android:verticalGap="20px" android:keyHeight="@dimen/key_height">
+	 <Row>
+        <Key
+            android:codes="-48"
+            android:horizontalGap="4%p"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@drawable/bj"/>
+        <Key
+            android:codes="-49"
+            android:horizontalGap="2.8%p"
+            android:keyIcon="@drawable/tj" />
+        <Key
+            android:codes="-50"
+            android:horizontalGap="2.8%p"
+            android:keyIcon="@drawable/hbs" />
+        <Key
+            android:codes="-51"
+            android:horizontalGap="2.8%p"
+            android:keyIcon="@drawable/sd" />
+        <Key
+            android:codes="-52"
+            android:horizontalGap="2.8%p"
+            android:keyIcon="@drawable/sx" />
+        <Key
+            android:codes="-53"
+            android:horizontalGap="2.8%p"
+            android:keyIcon="@drawable/nmg" />
+        <Key
+            android:codes="-54"
+            android:horizontalGap="2.8%p"
+            android:keyIcon="@drawable/ll" />
+        <Key
+            android:codes="-55"
+            android:horizontalGap="2.8%p"
+            android:keyIcon="@drawable/jl" />
+        <Key
+            android:codes="-56"
+            android:horizontalGap="2.8%p"
+            android:keyIcon="@drawable/hlj" />
+        <Key
+            android:codes="-57"
+            android:horizontalGap="2.8%p"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/sh" />
+    </Row>
+	<Row>
+        <Key
+            android:codes="-58"
+            android:horizontalGap="4%p"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@drawable/js" />
+        <Key
+            android:codes="-59"
+            android:horizontalGap="2.8%p"
+            android:keyIcon="@drawable/zj" />
+        <Key
+            android:codes="-60"
+            android:horizontalGap="2.8%p"
+            android:keyIcon="@drawable/ah" />
+        <Key
+            android:codes="-61"
+            android:horizontalGap="2.8%p"
+            android:keyIcon="@drawable/fj" />
+        <Key
+            android:codes="-62"
+            android:horizontalGap="2.8%p"
+            android:keyIcon="@drawable/jx" />
+        <Key
+            android:codes="-63"
+            android:horizontalGap="2.8%p"
+            android:keyIcon="@drawable/yu" />
+        <Key
+            android:codes="-64"
+            android:horizontalGap="2.8%p"
+            android:keyIcon="@drawable/hb" />
+        <Key
+            android:codes="-65"
+            android:horizontalGap="2.8%p"
+            android:keyIcon="@drawable/hn" />
+        <Key
+            android:codes="-66"
+            android:horizontalGap="2.8%p"
+            android:keyIcon="@drawable/gd" />
+        <Key
+            android:codes="-67"
+            android:horizontalGap="2.8%p"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/gx" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="-68"
+            android:horizontalGap="13%p"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@drawable/cq"/>
+        <Key
+            android:codes="-69"
+            android:horizontalGap="2.8%p"
+            android:keyIcon="@drawable/sc"/>
+        <Key
+            android:codes="-70"
+            android:horizontalGap="2.8%p"
+            android:keyIcon="@drawable/gz"/>
+        <Key
+            android:codes="-71"
+            android:horizontalGap="2.8%p"
+            android:keyIcon="@drawable/yn"/>
+        <Key
+            android:codes="-72"
+            android:horizontalGap="2.8%p"
+            android:keyIcon="@drawable/xz" />
+        <Key
+            android:codes="-73"
+            android:horizontalGap="2.8%p"
+            android:keyIcon="@drawable/sxs"/>
+        <Key
+            android:codes="-74"
+            android:horizontalGap="2.8%p"
+            android:keyIcon="@drawable/gs"/>
+        <Key
+            android:codes="-75"
+            android:horizontalGap="2.8%p"
+            android:keyIcon="@drawable/qh"/>
+    </Row>
+    <Row>
+        <Key
+            android:codes="-2"
+            android:isModifier="true"
+            android:isSticky="true"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/abc"
+            android:horizontalGap="2%p"
+            android:keyWidth="8%p"/>
+        <Key
+            android:horizontalGap="12.3%p"
+            android:codes="-76"
+            android:keyIcon="@drawable/hns" />
+        <Key
+            android:horizontalGap="2.8%p"
+            android:codes="-77"
+            android:keyIcon="@drawable/xj" />
+        <Key
+            android:horizontalGap="2.8%p"
+            android:codes="-78"
+            android:keyIcon="@drawable/xg" />
+        <Key
+            android:horizontalGap="2.8%p"
+            android:codes="-79"
+            android:keyIcon="@drawable/am" />
+        <Key
+            android:horizontalGap="2.8%p"
+            android:codes="-80"
+            android:keyIcon="@drawable/tb" />
+        <Key
+            android:horizontalGap="2.8%p"
+            android:codes="-81"
+            android:keyIcon="@drawable/lx" />
+        <Key
+            android:codes="-5"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/delete"
+             android:horizontalGap="12.3%p"
+            android:keyWidth="8%p" />
+    </Row>
+</Keyboard>

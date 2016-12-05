@@ -1,0 +1,175 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFCFC" >
+
+    <RelativeLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#3E98FF"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:gravity="center"
+            android:text="添加车辆"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/gsxx_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/top_layout"
+        android:background="#FFFFFF" >
+
+        <TextView
+            android:id="@+id/imageView1"
+            android:layout_width="60dip"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dip"
+            android:gravity="center_vertical"
+            android:text="品牌："
+            android:textColor="#2F2F2F"
+            android:textSize="15sp"
+            tools:ignore="ContentDescription" />
+
+        <EditText
+            android:id="@+id/tv_carbrand"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dip"
+            android:layout_toRightOf="@+id/imageView1"
+            android:background="@color/transparent"
+            android:gravity="center_vertical"
+            android:hint="输入车辆品牌"
+            android:textColor="#2F2F2F"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="#E4E4E4" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/gsdt_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/gsxx_layout"
+        android:background="#FFFFFF" >
+
+        <TextView
+            android:id="@+id/imageView3"
+            android:layout_width="60dip"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dip"
+            android:gravity="center_vertical"
+            android:text="型号："
+            android:textColor="#2F2F2F"
+            android:textSize="15sp"
+            tools:ignore="ContentDescription" />
+
+        <EditText
+            android:id="@+id/tv_cartype"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dip"
+            android:layout_toRightOf="@+id/imageView3"
+            android:background="@color/transparent"
+            android:gravity="center_vertical"
+            android:hint="输入车辆型号"
+            android:textColor="#2F2F2F"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="#E4E4E4" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/gswh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/gsdt_layout"
+        android:background="#FFFFFF" >
+
+        <TextView
+            android:id="@+id/imageView7"
+            android:layout_width="60dip"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dip"
+            android:gravity="center_vertical"
+            android:text="车牌："
+            android:textColor="#2F2F2F"
+            android:textSize="15sp"
+            tools:ignore="ContentDescription" />
+
+        <EditText
+            android:id="@+id/tv_carplate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dip"
+            android:layout_toRightOf="@+id/imageView7"
+            android:background="@color/transparent"
+            android:gravity="center_vertical"
+            android:hint="输入车辆车牌"
+            android:textColor="#2F2F2F"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="#E4E4E4" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/tjcl_btn"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/gswh_layout"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="添加"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <android.inputmethodservice.KeyboardView
+            android:id="@+id/keyboard_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:background="@color/gray"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="20dp"
+            android:keyTextColor="@color/keybord_bg"
+            android:keyBackground="@drawable/btn_keyboard_key"
+            android:visibility="gone" />
+    </RelativeLayout>
+</RelativeLayout>
